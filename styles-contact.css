@@ -60,49 +60,53 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.jpg)
+  background: url(images/palm_trees_bg.jpg)
 		center center fixed no-repeat;
 		background-size: cover;
+		font-family: "helvetica", sans-serif;
 	
 }
 
 .center {
-    width: 800px;
+    width: 700px;
+	height: 800px; 
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+
+ 	background: rgba(256, 256, 256, .55); /*this uses opacity of 55% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
+	 /* I changed background color to white and removed dashed border*/
 }
 
    
 #logo {
-    margin-bottom: 16px;
-	border: 3px dashed red;
+    margin-bottom: 10px;
+	margin-top: 10px;
 	text-align: center;
 }
 
 h1 {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
-	font-size: 2em;
+	font-family: "agenda", sans-serif;
+	font-size: 1.4em;
     margin: 0px auto 10px auto;
-    color: #fff;
+    color: #444;
 }
 
 h2 {
-	font-family: liebedoris, sans-serif;
+	font-family: "agenda", sans-serif;
 	font-size: 1.5em;
     line-height: 1.4;
-    color: #fff;
+    color: #444;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 }
 
 p {
-	font-family: liebedoris, sans-serif;
+	font-family: "agenda", sans-serif;
 	font-size: 1.2em;
     line-height: 1.6;
-    color: #fff;
+    color: #444;
 }
 
 nav{
@@ -110,7 +114,7 @@ nav{
 	font-size: 1.2em;
 	width: 400px;
 	margin: 0 auto;
-	border: dashed turquoise;
+	border: dashed #444;
 	border-width: 3px 0;
 	text-align: center;
 	margin-top: 2em;
