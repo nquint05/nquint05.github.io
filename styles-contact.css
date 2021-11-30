@@ -55,6 +55,8 @@ table {
 
 /* ---------- Hello, my name is Natalia Quintana-Reyna and this is the beginning of my CONTACT PAGE CSS for 318 Digital Typography November 2019 ------------ */
 
+
+/* I changed the backround image*/
 html, body {
   height: 100%;
   width: 100%;
@@ -66,7 +68,7 @@ html, body {
 		font-family: "helvetica", sans-serif;
 	
 }
-
+/* I adjusted height, width, opacity, and background color*/
 .center {
     width: 700px;
 	height: 800px; 
@@ -75,10 +77,10 @@ html, body {
 
  	background: rgba(256, 256, 256, .55); /*this uses opacity of 55% for the background color*/
 	text-align: center;
-	 /* I changed background color to white and removed dashed border*/
+	 
 }
 
-   
+/*I removed the dashed border around the logo*/   
 #logo {
     margin-bottom: 10px;
 	margin-top: 10px;
@@ -86,6 +88,7 @@ html, body {
 }
 
 h1 {
+	/*I adjusted the typeface and size of it*/
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
 	font-family: "agenda", sans-serif;
 	font-size: 1.4em;
@@ -93,6 +96,7 @@ h1 {
     color: #444;
 }
 
+/*I adjusted the typeface and size of it*/
 h2 {
 	font-family: "agenda", sans-serif;
 	font-size: 1.5em;
@@ -102,6 +106,7 @@ h2 {
     margin: 0px auto 25px auto;
 }
 
+/*I adjusted the typeface and size of it*/
 p {
 	font-family: "agenda", sans-serif;
 	font-size: 1.2em;
@@ -119,7 +124,7 @@ nav{
 	text-align: center;
 	margin-top: 2em;
 }
-    
+ /*I adjusted the color of the font*/   
  nav li{
 	display:inline;
  	}  
