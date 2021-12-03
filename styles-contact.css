@@ -69,12 +69,13 @@ html, body {
 	
 }
 /* I adjusted height, width, opacity, and background color*/
+/* I also made the center smaller and more squared*/
 .center {
-    width: 700px;
-	height: 800px; 
+    width: 80%;
+	max-width: 800px;
 	padding: 2%;
     margin: 100px auto;
-
+	border-radius: 30px 150px;
  	background: rgba(256, 256, 256, .55); /*this uses opacity of 55% for the background color*/
 	text-align: center;
 	 
@@ -89,10 +90,13 @@ html, body {
 
 h1 {
 	/*I adjusted the typeface and size of it*/
+	/* I adjusted the margin to be smaller on the top*/
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
 	font-family: "agenda", sans-serif;
 	font-size: 1.4em;
-    margin: 0px auto 10px auto;
+	width: 470x;
+	height: 50px;
+    margin: -55px auto 10px auto;
     color: #444;
 }
 
@@ -114,23 +118,27 @@ p {
     color: #444;
 }
 
+/*changed border to be solid*/
+/*I changed the border style to ridge*/
 nav{
 	font-family: liebedoris, sans-serif;
 	font-size: 1.2em;
 	width: 400px;
 	margin: 0 auto;
-	border: dashed #444;
+	border-color: ridge #444;
+	border-style:ridge;
 	border-width: 3px 0;
 	text-align: center;
 	margin-top: 2em;
+
 }
- /*I adjusted the color of the font*/   
+ /*I adjusted the color of the font and the color of the hover*/   
  nav li{
 	display:inline;
  	}  
 
 	 nav a{
-		display: inline-block;
+		display:inline-block;
 		padding: 10px;
 	 }
 
@@ -142,5 +150,5 @@ nav{
 
 	 a:hover{
 		color:black;
-		background: pink;
+		background: #afcbb5;
 	 }
