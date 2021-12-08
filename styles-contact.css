@@ -132,14 +132,15 @@ nav{
 	margin-top: 2em;
 
 }
- /*I adjusted the color of the font and the color of the hover*/   
+ /*I adjusted the color of the font and the color of the hover*/ 
+ /*also adjusted padding to make top and bottoms lines closer together*/  
  nav li{
 	display:inline;
  	}  
 
 	 nav a{
 		display:inline-block;
-		padding: 10px;
+		padding: 7px;
 	 }
 
 	 a{
